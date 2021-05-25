@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/vue-twentytwenty/dist/vue-twentytwenty.css" />
+</head>
+<style type="text/css">
+	#contenido { max-width: 640px; margin: 0 auto;max-height: 360px; }
+</style>
+
+<body>
+  <div id="contenido">
+  <div id="app" style="font-family: 'Avenir Next', 'Century Gothic Neue', 'Century Gothic', Century Gothic, Arial, sans-serif;">
+    <twenty-twenty
+      offset="0.5"
+      before="https://i.imgur.com/yjw0RY8.jpg"
+      before-label="Antes"
+      after="https://i.imgur.com/JBMVuC3.jpg" 
+      after-label="Despu&eacute;s" />
+  </div>
+  </div>
+  <script src="https://unpkg.com/vue@2/dist/vue.js"></script> 
+  <script src="https://unpkg.com/vue-twentytwenty/dist/vue-twentytwenty.umd.min.js"></script> 
+  <script>
+  new Vue({
+    el: '#app'
+  })
+  </script> 
+</body>
+</html>
+
